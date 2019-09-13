@@ -9,13 +9,15 @@
     "react-dom": "^16.9.0",
     "react-icons": "^3.7.0",
     "react-scripts": "3.1.1",
-    "moment": "^2.24.0",
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {
     "@testing-library/react": "^8.0.5"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --watchAll",
     "eject": "react-scripts eject"
   },
   "jest": {
